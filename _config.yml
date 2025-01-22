@@ -45,9 +45,9 @@ footer_links:
     url: feed.xml
     icon: fa fa-rss-square
 
-  - title: GitHub
-    url: https://github.com/bluecreeper512
-    icon: fa fa-github-square
+  - title: Website
+    url: https://bluecreeper512.com
+    icon: fa-solid fa-globe
 
 # Enter your copyright text if you wish to override the default one.
 #copyright: "This site is made with <3 by *me, myself, and I*."
