@@ -459,7 +459,7 @@ a[href^="#fnref:"] {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #277FC9;
   font-family: $sans-font-family;
   font-weight: 400;
   font-size: 28px !important;
@@ -467,7 +467,7 @@ a[href^="#fnref:"] {
 
   a {
     &:hover {
-      color: $mahogany !important;
+      color: #277FC9 !important;
       text-decoration: none;
     }
     &:visited {
