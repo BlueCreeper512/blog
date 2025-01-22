@@ -624,7 +624,7 @@ footer {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.66666666667;
-    color: $darkGray;
+    color: #ffffff;
     -webkit-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
@@ -658,7 +658,7 @@ footer {
   
   h1, h2, h3, h4, h5, h6 {
     margin: 01em 0 15px;
-    color: $darkerGray;
+    color: #277FC9;
     font-family: $sans-font-family;
     font-weight: 700;
     line-height: 1.66666666667;
@@ -684,7 +684,7 @@ footer {
   small, .text_small {font-size: 14px;}
   
   a {
-    color: $blue;
+    color: #277FC9;
     text-decoration: none;
   
     &:visited {
@@ -692,7 +692,7 @@ footer {
     }
   
     &:hover {
-      color: $blue;
+      color: #277FC9;
       text-decoration: underline;
     }
   }
