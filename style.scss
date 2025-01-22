@@ -1070,7 +1070,7 @@ footer {
   
   .site-name {
     margin: 0;
-    color: $white;
+    color: #277FC9;
     font-family: $sans-font-family;
     font-weight: 400;
     font-size: 28px !important;
@@ -1078,7 +1078,7 @@ footer {
   
     a {
       &:hover {
-        color: $mahogany !important;
+        color: #277FC9 !important;
         text-decoration: none;
       }
       &:visited {
@@ -1133,7 +1133,7 @@ footer {
   .nav-menu-item.active,
   a.nav-menu-item:focus {
     text-decoration: none;
-    color: $mahogany;
+    color: #277FC9;
   }
   
   .clearfix:before,
@@ -1177,7 +1177,7 @@ footer {
       }
   
         &:visited {
-          color: $mahogany;
+          color: #277FC9;
         }
   
           &:hover {
