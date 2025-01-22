@@ -73,7 +73,7 @@ h6 {font-size: 14px;}
 small, .text_small {font-size: 14px;}
 
 a {
-  color: $blue;
+  color: #277FC9;
   text-decoration: none;
 
   &:visited {
@@ -81,7 +81,7 @@ a {
   }
 
   &:hover {
-    color: $blue;
+    color: #3391ff;
     text-decoration: underline;
   }
 }
