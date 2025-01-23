@@ -54,3 +54,11 @@
     text-decoration: none;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  input {
+      &[type=text] {
+        color: $white;
+      }
+    }
+  }
