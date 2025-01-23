@@ -13,7 +13,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.66666666667;
-  color: #277FC9;
+  color: $black;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
@@ -73,11 +73,11 @@ h6 {font-size: 14px;}
 small, .text_small {font-size: 14px;}
 
 a {
-  color: #277FC9;
+  color: #3391ff;
   text-decoration: none;
 
   &:visited {
-    color: $purple;
+    color: #3391ff;
   }
 
   &:hover {
@@ -131,7 +131,7 @@ figcaption {
     margin-top: -20px;
     margin-bottom: 10px;
     text-align: center;
-    color: $gray;
+    color: $white;
 }
 
 .gmnoprint img {
@@ -142,18 +142,18 @@ hr {
   position: relative;
   margin-top: 35px;
   margin-bottom: 35px;
-  border: 01px solid $lightGray;
+  border: 01px solid $white;
 }
 
 .date {
   font-weight: bold;
-  color: $gray;
+  color: $white;
   margin-bottom: 35px;
 }
 
 .post-categories {
   font-weight: bold;
-  color: $gray;
+  color: $white;
   margin-bottom: 40px;
 
   .categories-button {
@@ -161,9 +161,9 @@ hr {
     text-align: center;
     border: 01px solid $paleGray;
     border-radius: 03px;
-    background: #ffffff;
+    background: #3391ff;
     font-weight: 400;
-    color: $gray;
+    color: $white;
     font-size: 16px !important;
     white-space: nowrap;
     text-decoration: none;
@@ -187,13 +187,13 @@ hr {
 .share-post {
   isolation: isolate;
   font-weight: bold;
-  color: $gray;
+  color: $white;
   margin-bottom: 30px;
   }
 
 .no-comments {
   font-weight: bold;
-  color: $gray;
+  color: $white;
   margin-bottom: 25px;
 }
 
@@ -202,7 +202,7 @@ hr {
     margin: 0;
     padding: 0;
     font-weight: bold;
-    color: $gray;
+    color: $white;
   }
 }
 
@@ -221,7 +221,7 @@ hr {
         margin: 0;
         padding: 0;
         font-weight: bold;
-        color: $gray;
+        color: $white;
       }
 
       &:first-child {
@@ -238,7 +238,7 @@ hr {
 
 .category-head {
   font-weight: bold;
-  color: $gray;
+  color: $white;
 }
 
 ::-moz-selection {
@@ -274,7 +274,7 @@ code {
   color: #586e75;
   border: 01px solid #dddddd;
   border-radius: 03px;
-  background-color: #fdf6e3;
+  background-color: #5b5b5b;
 }
 
 code {
@@ -357,7 +357,7 @@ table {
 
   tr {
     &:nth-child(even) {
-      background-color: #efefef;
+      background-color: #5b5b5b;
     }
   }
 
@@ -366,7 +366,7 @@ table {
   }
 
   th {
-    background-color: #efefef;
+    background-color: #5b5b5b;
     border: 01px solid #dddddd;
   }
 
@@ -478,7 +478,7 @@ a[href^="#fnref:"] {
 
 .site-description {
   margin: -05px 0 0 0;
-  color: $gray;
+  color: $white;
   font-size: 16px !important;
   font-weight: 400;
 
@@ -500,7 +500,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $white;
     text-align: right;
     font-weight: 400;
     letter-spacing: 01px;
@@ -522,7 +522,13 @@ nav {
 .nav-menu-item.active,
 a.nav-menu-item:focus {
   text-decoration: none;
-  color: $mahogany;
+  color: #277FC9;
+}
+
+.nav-menu-item,
+a.nav-menu-item {
+  text-decoration: none;
+  color: #277FC9;
 }
 
 .clearfix:before,
@@ -558,19 +564,19 @@ a.nav-menu-item:focus {
   .read-more {
     text-transform: uppercase;
     font-size: 14px !important;
-    color: $mahogany;
+    color: #3391ff;
 
     a {
-      color: $mahogany;
+      color: #3391ff;
       text-decoration: none;
     }
 
       &:visited {
-        color: $mahogany;
+        color: #3391ff;
       }
 
         &:hover {
-          color: $mahogany;
+          color: #3391ff;
           text-decoration: underline;
         }
   }
@@ -578,15 +584,15 @@ a.nav-menu-item:focus {
   .reading-time {
     text-transform: uppercase;
     font-size: 14px !important;
-    color: $mahogany;
+    color: #3391ff;
   }
 }
 
 .wrapper-footer {
   margin-top: 30px;
-  border-top: 01px solid #ddd;
-  border-bottom: 01px solid #ddd;
-  background-color: $lightGray;
+  border-top: 01px solid #eeeeee;
+  border-bottom: 01px solid #eeeeee;
+  background-color: #eeeeee;
 }
 
 footer {
@@ -600,10 +606,10 @@ footer {
   .social-icon {
     display: inline-block;
     padding: 0 04px;
-    color: $gray;
+    color: $white;
 
       &:hover {
-      color: $darkGray;
+      color: $gray;
       }
   }
 }
@@ -616,6 +622,7 @@ footer {
     padding: 0;
   }
 }
+
 
 @media (prefers-color-scheme: dark) {
   body {
